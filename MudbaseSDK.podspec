@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.version = '1.3.17'
   s.source = { :git => 'https://github.com/themudhaxk/mudbase-sdk-swift.git', :tag => 'v1.3.17' }
   s.authors = 'OpenAPI Generator'
-  s.license = 'Proprietary'
+  s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage = 'https://github.com/themudhaxk/mudbase-sdk-swift'
   s.summary = 'MudbaseSDK Swift SDK'
   s.source_files = 'MudbaseSDK/Classes/**/*.swift'
